@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1a12"/>
+      <stop offset="45%" stop-color="#0f2417"/>
+      <stop offset="100%" stop-color="#08110c"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39ff88" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#39ff88" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7CFC9C" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7CFC9C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rampLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8affc1" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8affc1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8affc1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <circle cx="180" cy="80" r="160" fill="url(#glow1)"/>
+  <circle cx="1040" cy="300" r="200" fill="url(#glow2)"/>
+  <circle cx="600" cy="40" r="120" fill="url(#glow1)"/>
+
+  <g opacity="0.18" stroke="#8affc1" stroke-width="2" fill="none">
+    <path d="M -20 340 L 300 220 L 620 300 L 940 190 L 1260 260"/>
+    <path d="M -40 300 L 260 180 L 580 260 L 900 150 L 1220 220"/>
+  </g>
+
+  <g opacity="0.12" fill="#39ff88">
+    <ellipse cx="120" cy="300" rx="60" ry="24"/>
+    <ellipse cx="1090" cy="70" rx="80" ry="30"/>
+    <ellipse cx="950" cy="320" rx="50" ry="18"/>
+  </g>
+
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="url(#rampLine)" stroke-width="1.5" opacity="0.4"/>
+
+  <g opacity="0.15" stroke="#c9ffe0" stroke-width="1">
+    <circle cx="300" cy="150" r="3"/>
+    <circle cx="450" cy="90" r="2"/>
+    <circle cx="750" cy="120" r="2.5"/>
+    <circle cx="900" cy="60" r="3"/>
+    <circle cx="1000" cy="180" r="2"/>
+    <circle cx="200" cy="250" r="2"/>
+  </g>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58.0" font-weight="700" fill="#ffffff">
+    <tspan x="600" dy="0">MEGA RAMP SLIME Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Pluggable script console for MEGA RAMP FOR SLIME players —</tspan>
+    <tspan x="600" dy="32">run commands and manage the ramp ecosystem from on…</tspan>
+  </text>
+</svg>
